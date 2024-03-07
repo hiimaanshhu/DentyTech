@@ -1,0 +1,216 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT';
+
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+#main {
+    height: 100%;
+    width: 100%;
+    background-color: whitesmoke;
+}
+
+#nav {
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 40px;
+}
+
+#nleft {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#nleft button {
+    font-size: 20px;
+    padding: 10px 25px;
+    background-color: orangered;
+    color: whitesmoke;
+    font-weight: 400;
+    border-radius: 25px;
+    box-shadow: 2px 2px 2px 0;
+
+}
+
+#nleft button:hover {
+    background-color: whitesmoke;
+    color: black;
+    cursor: pointer;
+    box-shadow: 3px 3px 3px 0;
+}
+
+#nleft i {
+    font-size: 20px;
+    padding: 10px 10px;
+    border: 2px solid #000;
+    border-radius: 17px;
+    margin-left: 8px;
+    box-shadow: 2px 2px 2px 0;
+}
+
+#nleft i:hover {
+    color: whitesmoke;
+    background-color: orangered;
+    cursor: pointer;
+}
+
+#nmedium {
+    text-transform: uppercase;
+    text-size-adjust: 16px;
+    text-shadow: 1px 1px 1px;
+}
+
+#nmedium :hover {
+    opacity: 0.9;
+    text-size-adjust: 20px;
+    text-decoration: underline;
+    text-shadow: none;
+}
+
+#nright .first{
+    font-size: 20px;
+    padding: 10px 25px;
+    background-color:orangered;
+    color: whitesmoke;
+    font-weight: 400;
+    border-radius: 25px;
+    margin-right: 5px;
+}
+
+#nright .first:hover {
+    background-color: whitesmoke;
+    color: black;
+    cursor: pointer;
+    box-shadow: 3px 3px 3px 0;
+}
+
+#nright .second{
+    font-size: 20px;
+    padding: 10px 25px;
+    background-color: orangered;
+    color: whitesmoke;
+    font-weight: 400;
+    border-radius: 25px;
+}
+
+#nright .second:hover {
+    background-color: whitesmoke;
+    color: black;
+    cursor: pointer;
+    box-shadow: 3px 3px 3px 0;
+}
+#center h1 {
+    font-size: 150px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande';
+    font-weight: 300;
+    text-transform: uppercase;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 100%;
+    text-align: center;
+    text-shadow: 6px 3px 8px;
+}
+
+#center h1:hover {
+    text-shadow: 6px 8px 10px;
+    transition: all 0.1s linear;
+    opacity: 0.9;
+}
+
+#center img {
+    height: 400px;
+    width: 300px;
+    object-fit: cover;
+    object-position: top;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 30px;
+    box-shadow: 0 4px 4px 0;
+}
+
+#center img:hover {
+    height: 405px;
+    width: 305px;
+    box-shadow: 0 8px 8px 0;
+    transition: all 0.2s linear;
+    cursor: pointer;
+
+}
+
+#center .img1 {
+    transform: translate(-50%, -50%) rotate(-33deg);
+}
+
+#center .img2 {
+    transform: translate(-50%,-50%) rotate(-23deg);
+}
+
+#center .img3 {
+    transform: translate(-50%,-50%) rotate(-13deg);
+}
+
+#bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.btmleft {
+    position: absolute;
+    bottom: 4%;
+    left: 3%;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
+}
+
+.btmmedium {
+    position: absolute;
+    bottom: 0%;
+    left: 47%;
+    font-size: 70px;
+}
+
+.btmmedium:hover {
+    opacity: 0.8;
+    cursor: pointer;
+    transition: all 0.1s linear;
+}
+
+.btmright {
+    position: absolute;
+    bottom: 5%;
+    right: 5%;
+    font-size: 24px;
+    padding: 0 5px 5px 0;
+}
+
+.btmright i:hover {
+    cursor: pointer;
+    opacity: 0.8;
+    font-size: 25px;
+}
+
+#bottom h2 {
+    position: absolute;
+    bottom: 3%;
+    right: 3%;
+    font-size: 16px;
+    font-weight: 500;
+    margin-right: 6px;
+}
